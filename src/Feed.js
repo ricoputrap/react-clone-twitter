@@ -13,13 +13,16 @@ function Feed() {
             
             <TweetBox />
 
-            {/* Post */}
+            <Post
+                displayName="Rico Putra"
+                username="@rico_rpp21"
+                verified
+                text="TEST YOOO it's working!"
+                avatar="/static/hilih.png"
+                image="https://media.giphy.com/media/fuJjrm6Cv2onpmpPEK/giphy.gif" />
             <Post />
             <Post />
             <Post />
-            <Post />
-            {/* Post */}
-            {/* Post */}
         </div>
     )
 }
